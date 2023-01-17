@@ -22,7 +22,7 @@ function Contact() {
           <div className=' grid  h-full mt-4  sm:grid-cols-2  shadow-lg shadow-indigo-500/50'>
             <form ref={refForm} onSubmit={sendEmail}  className=' flex  flex-col  m-auto w-full    p-8'>
                 
-                <p className='text-4xl font-bold inline border-b-[1px] pb-8 '> Contact Me </p>
+                <p className='text-4xl font-bold inline  pb-8 '> Contact Me </p>
                
                 <input className='p-2 bg-[lightblue]/5 placeholder:text-[lightblue] ' type="text" placeholder='Name' name='name' required/>
                 <input className='my-4 p-2  bg-[lightblue]/5 placeholder:text-[lightblue] placeholder:pl-4' type="Email" placeholder='Email' name='email' required/>
