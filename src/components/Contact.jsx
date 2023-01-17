@@ -17,10 +17,10 @@ function Contact() {
   }
 
   return (
-    <div name='contact' className='w-full h-screen bg-[#0a192f] p-2 text-[white]'>
+    <div name='contact' className='w-full h-full bg-[#0a192f] p-2 text-[white]'>
         <div className='  px-[4rem] flex flex-col justify-center w-full h-full  '>
-          <div className=' grid sm:grid-cols-2  shadow-lg shadow-indigo-500/50'>
-            <form ref={refForm} onSubmit={sendEmail}  className='flex flex-col  m-auto w-full border-[1px] border-[#354763]  p-8'>
+          <div className=' grid h-full sm:grid-cols-2  shadow-lg shadow-indigo-500/50'>
+            <form ref={refForm} onSubmit={sendEmail}  className='h-[400px] flex sm:flex flex-col  m-auto w-full border-[1px] border-[#354763]  p-8'>
                 <div className='pb-8'> 
                 <p className='text-4xl font-bold inline border-b-[1px] '> Contact Me </p>
                 </div>
@@ -31,7 +31,7 @@ function Contact() {
             <button type='submit' className='px-4 py-1 border-[1px] border-[lightblue] rounded-md '>Send</button>
             </div>
             </form>
-            <div className='h-[400px] sm:border-[1px] border-[#5d83bb] sm:h-full '>
+            <div className='h-[300px] sm:border-[1px] border-[#5d83bb] sm:h-full '>
             <MyMap/>
             </div>
             </div>
