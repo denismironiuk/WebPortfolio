@@ -24,8 +24,8 @@ function Contact() {
                 
                 <p className='text-4xl font-bold inline  pb-8 '> Contact Me </p>
                
-                <input className='p-2 bg-[lightblue]/5 placeholder:text-[lightblue] ' type="text" placeholder='Name' name='name' required/>
-                <input className='my-4 p-2  bg-[lightblue]/5 placeholder:text-[lightblue] placeholder:pl-4' type="Email" placeholder='Email' name='email' required/>
+                <input className='p-2 bg-[lightblue]/5 placeholder:text-[lightblue] pl-4 ' type="text" placeholder='Name' name='name' required/>
+                <input className='my-4 p-2  bg-[lightblue]/5 placeholder:text-[lightblue] pl-4' type="Email" placeholder='Email' name='email' required/>
            <textarea className='  bg-[lightblue]/5 placeholder:text-[lightblue] pl-4' name="message" id="message"  rows="10" placeholder='Message'></textarea>
             <div className='self-end pt-4'>
             <button type='submit' className='px-4 py-1 border-[1px] border-[lightblue] rounded-md '>Send</button>
