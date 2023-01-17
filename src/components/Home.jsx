@@ -11,8 +11,8 @@ function Home() {
 
  
   return (
-    <div name='home' className='w-full h-screen bg-[#0a192f]'>
-        <div className='max-w-[1000px] m-auto px-[4rem] flex flex-col justify-center h-full'>
+    <div name='home' className='w-full h-screen bg-[#0a192f] '>
+        <div className='max-w-[1000px] m-auto px-[4rem] flex flex-col justify-center h-full pt-24'>
         
         <p className="text-white  text-2xl font-bold ">
           <Animated 
