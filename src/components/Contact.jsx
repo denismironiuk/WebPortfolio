@@ -19,12 +19,12 @@ function Contact() {
   return (
     <div name='contact' className='w-full h-full bg-[#0a192f] p-2 text-[white]'>
         <div className='  px-[4rem] flex flex-col justify-center w-full h-full  '>
-          <div className=' grid h-full sm:grid-cols-2  shadow-lg shadow-indigo-500/50'>
-            <form ref={refForm} onSubmit={sendEmail}  className='h-[400px] flex sm:flex flex-col  m-auto w-full border-[1px] border-[#354763]  p-8'>
+          <div className=' grid h-full mt-4  sm:grid-cols-2  shadow-lg shadow-indigo-500/50'>
+            <form ref={refForm} onSubmit={sendEmail}  className='h-[400px] flex sm:flex flex-col  m-auto w-full   p-8'>
                 <div className='pb-8'> 
                 <p className='text-4xl font-bold inline border-b-[1px] '> Contact Me </p>
                 </div>
-                <input className='p-2 bg-[lightblue]/5 placeholder:text-[lightblue] pl-4' type="text" placeholder='Name' name='name' required/>
+                <input className='p-2 bg-[lightblue]/5 placeholder:text-[lightblue] ' type="text" placeholder='Name' name='name' required/>
                 <input className='my-4 p-2  bg-[lightblue]/5 placeholder:text-[lightblue] pl-4' type="Email" placeholder='Email' name='email' required/>
            <textarea className='  bg-[lightblue]/5 placeholder:text-[lightblue] pl-4' name="message" id="message"  rows="10" placeholder='Message'></textarea>
             <div className='self-end pt-4'>
@@ -32,7 +32,7 @@ function Contact() {
             </div>
             </form>
             <div className='h-[300px] sm:border-[1px] border-[#5d83bb] sm:h-full '>
-            <MyMap/>
+            <MyMap />
             </div>
             </div>
         </div>

@@ -31,7 +31,7 @@ function MyMap() {
   return (
     
       
-        <div  id="map" className="leaflet-container " ></div>
+        <div  id="map" className="leaflet-container z-0 " ></div>
       
     
   );

@@ -16,7 +16,7 @@ function Navbar() {
 
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#081830] text-gray-300  ">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#081830] text-gray-300 z-[99]  ">
       <div>
         <h2
           className="font-bold  text-5xl text-transparent bg-clip-text bg-gradient-to-r from-[#4f5152] to-[#4dccf7]"
@@ -27,7 +27,7 @@ function Navbar() {
       </div>
       {/*Menu Section*/}
 
-      <ul className="hidden md:flex">
+      <ul className="hidden md:flex ">
         <li >
           <Link   to="home" spy={true} smooth={true} duration={1000} >
             Home
