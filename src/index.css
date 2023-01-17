@@ -1,0 +1,54 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap");
+
+@layer base {
+  body {
+    @apply font-[Moon+Dance];
+  }
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
+}
+/*   max-w-[1000px] m-auto px-[4rem] flex flex-col justify-center h-full   */
+@layer components {
+  .active {
+    @apply border-b-[1px];
+    @apply border-[lightblue];
+  }
+  .leaflet-container {
+    @apply max-w-[1000px] m-auto px-[4rem] flex flex-col justify-center items-center h-full;
+  }
+  .content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+  }
+  .LazyLoad {
+    opacity: 0;
+    transition: all 2s ease-in-out;
+  }
+
+  .is-visible {
+    opacity: 1;
+  }
+ 
+
+  .button-animation{
+    animation: color-change-2x 2s linear infinite alternate both;
+  }
+  @keyframes color-change-2x {
+    0% {
+      border:1px solid #19dcea;
+    }
+    100% {
+      border:1px solid #b22cff;
+    }
+  }
+
+}
