@@ -67,7 +67,7 @@ function Navbar() {
       <ul
         className={
           nav
-            ? " absolute top-0 left-0 w-full h-screen tex-4xl bg-[#0a192f] bg-transparent/50 flex flex-col justify-center items-center z-99 "
+            ? " absolute top-0 left-0 w-full h-screen tex-4xl bg-[#0a192f] flex flex-col justify-center items-center z-99 "
             : "hidden"
         }
       >
