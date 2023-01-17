@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/denismironiuk/WebPortfolio.git/static/css/main.521a82cf.css",
+    "main.js": "/denismironiuk/WebPortfolio.git/static/js/main.26c023ae.js",
+    "static/media/react.png": "/denismironiuk/WebPortfolio.git/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/denismironiuk/WebPortfolio.git/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/mongo.png": "/denismironiuk/WebPortfolio.git/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/github.png": "/denismironiuk/WebPortfolio.git/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/denismironiuk/WebPortfolio.git/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/css.png": "/denismironiuk/WebPortfolio.git/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/denismironiuk/WebPortfolio.git/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/denismironiuk/WebPortfolio.git/index.html",
+    "main.521a82cf.css.map": "/denismironiuk/WebPortfolio.git/static/css/main.521a82cf.css.map",
+    "main.26c023ae.js.map": "/denismironiuk/WebPortfolio.git/static/js/main.26c023ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.521a82cf.css",
+    "static/js/main.26c023ae.js"
+  ]
+}
