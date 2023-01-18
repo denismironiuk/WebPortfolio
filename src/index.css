@@ -21,7 +21,7 @@
     @apply border-[lightblue];
   }
   .leaflet-container {
-    @apply max-w-[1000px] m-auto  flex flex-col justify-center items-center h-full ;
+    @apply  w-full    md:w-[50%] h-[50%] ;
   }
   .content-div {
     background-repeat: no-repeat;
@@ -37,6 +37,67 @@
   .is-visible {
     opacity: 1;
   }
+  .notification {
+   width: 100%;
+    position: fixed;
+    top: 48px;
+    left:0;
+   
+    padding: 10px;
+    border-radius: 3px 3px 3px 3px;
+    
+    
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+   
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    
+    animation-duration: 3s; 
+    
+    z-index: 100;
+  }
+  @keyframes bounceInLeft {
+    0% {
+       opacity: 0;
+       transform: translateX(-2000px);
+    }
+    60% {
+       opacity: 1;
+       transform: translateX(30px);
+    }
+    80% {
+       transform: translateX(-10px);
+    }
+   100%{
+       transform: translateX(0px);
+    }
+ }
+  .show {
+    visibility: visible;
+    animation-name: bounceInLeft ;
+    opacity: 1;
+    z-index: 100;
+    
+    color:white
+  }
+  .hide {
+    visibility: hidden;
+    left:0;
+    opacity: 0;
+    z-index: 100;
+  }
+  .error {
+    background-color:rgba(197, 11, 20, 0.6);
+   z-index: 100;
+  }
+ .success {
+  background-color:rgba(33, 197, 11, 0.6);
+   
+   z-index: 100;
+  }
+  
+
  
 
   .button-animation{

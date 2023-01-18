@@ -11,7 +11,7 @@ function Work() {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 shadow-lg shadow-indigo-500/50">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 shadow-lg shadow-indigo-500/50 ">
           <div
             style={{
               backgroundImage: `url(https://images.pexels.com/photos/313690/pexels-photo-313690.jpeg?auto=compress&cs=tinysrgb&w=1600)`,
