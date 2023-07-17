@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import Animated from './AnimatedLetters/Animated'
+import { Link } from 'react-scroll'
 
 function Home() {
   const[lettersClass,setLettersClass]=useState('text-animate')
@@ -43,8 +44,9 @@ function Home() {
            />
            </p>
         <div className='my-20 '>
-            <button className='button-animation border-2 border-[lightblue] px-6 py-3  text-white text-2xl flex items-center  rounded-sm hover:bg- '>View Work <HiArrowNarrowRight/> </button>
+            <Link to='work' spy={true} smooth={true} duration={1000}  className=' w-[15rem]  button-animation border-2 border-[lightblue] px-6 py-3  text-white text-2xl flex items-center  rounded-sm '>View Work <HiArrowNarrowRight/> </Link>
         </div>
+        
         </div>
         
     </div>

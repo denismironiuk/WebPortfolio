@@ -13,7 +13,7 @@ import Navbar from "./components/Navbar";
 
 
 import Skills from "./components/Skills";
-import Work from "./components/Work";
+import Works from "./components/Works";
 
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
       <About />
 
       <Skills />
-      <Work />
+      <Works />
       <Contact />
      
       

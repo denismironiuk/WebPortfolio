@@ -6,6 +6,6 @@
 
 @for $i from 0 through 183{
     .text-animate._#{$i}{
-        animation-delay:#{$i/15}s ;
+        animation-delay:#{$i/25}s ;
     }
 }
