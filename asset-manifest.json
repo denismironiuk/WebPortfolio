@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/WebPortfolio/static/css/main.b9457e5d.css",
-    "main.js": "/WebPortfolio/static/js/main.8d190746.js",
+    "main.css": "/WebPortfolio/static/css/main.ff882946.css",
+    "main.js": "/WebPortfolio/static/js/main.d0e2d385.js",
     "static/media/netflix.png": "/WebPortfolio/static/media/netflix.839095234d0085434a5f.png",
     "static/media/eccomerse.png": "/WebPortfolio/static/media/eccomerse.f215bcf6ec27ba87fc27.png",
     "static/media/recipe.png": "/WebPortfolio/static/media/recipe.c9bea13ad1e3cd8cae89.png",
@@ -14,11 +14,11 @@
     "static/media/css.png": "/WebPortfolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/WebPortfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/WebPortfolio/index.html",
-    "main.b9457e5d.css.map": "/WebPortfolio/static/css/main.b9457e5d.css.map",
-    "main.8d190746.js.map": "/WebPortfolio/static/js/main.8d190746.js.map"
+    "main.ff882946.css.map": "/WebPortfolio/static/css/main.ff882946.css.map",
+    "main.d0e2d385.js.map": "/WebPortfolio/static/js/main.d0e2d385.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9457e5d.css",
-    "static/js/main.8d190746.js"
+    "static/css/main.ff882946.css",
+    "static/js/main.d0e2d385.js"
   ]
 }
